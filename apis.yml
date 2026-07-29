@@ -1,7 +1,22 @@
 aid: jet-com
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jet-com.png
 name: Jet Com
-description: Jet Com is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Jet.com was an American e-commerce marketplace founded in 2014 by Marc Lore that used
+  dynamic, real-time pricing to lower cart totals as shoppers combined orders. Walmart acquired Jet.com
+  in 2016 for approximately 3.3 billion dollars, folded its technology and talent into Walmart's online
+  operation, and fully shut down the Jet.com brand and site in 2020. The jet.com domain now redirects to
+  walmart.com, and no Jet-branded developer portal, documentation, SDKs, or API surface remain online.
 url: https://raw.githubusercontent.com/api-evangelist/jet-com/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +24,29 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-defunct-note: Acquired by Walmart in 2016; brand and site shut down in 2020; jet.com now 301-redirects
+  to walmart.com. No live API surface exists to enrich.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- E-Commerce
+- Retail
+- Marketplace
+- Online Shopping
+- Consumer
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
