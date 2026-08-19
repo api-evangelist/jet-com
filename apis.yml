@@ -27,7 +27,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-defunct-note: Acquired by Walmart in 2016; brand and site shut down in 2020; jet.com now 301-redirects
   to walmart.com. No live API surface exists to enrich.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
